@@ -17,7 +17,7 @@
 <body>
     <section class="sub-header">
         <nav>
-            <a href="index.html"><img src="img/logo.png"></a>
+            <a href="index.html"><img src="https://www.dialeducation.com/assets/images/college/logo_1614573278.png"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
@@ -52,7 +52,7 @@
             <div>
                 <i class="fa fa-home"></i>
                 <span>
-                    <h5>IILM Road, Knowledge Part II</h5>
+                    <h5>Plot-19, IILM Road, Knowledge Part II</h5>
                     <P>Greater Noida, Uttar Pradesh, IN</P>
                 </span>
             </div>
@@ -74,11 +74,11 @@
         <br>
         <br>
         <div class="contact-col">
-            <form action="">
-                <input type="text" placeholder="Enter your name" required>
-                <input type="text" placeholder="Enter your email" required>
-                <input type="text" placeholder="Enter your subject" required>
-                <textarea rows="8" placeholder="message" required></textarea>
+            <form action="formhandler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="text" name="email" placeholder="Enter your email" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" name="message" placeholder="message" required></textarea>
                 <button type="submit" class="hero-btn red-btn">Send message</button>
             </form>
         </div>
@@ -89,8 +89,7 @@
 
     <section class="footer">
         <h4>About Us</h4>
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptas voluptatum qui neque provident!
-            <br>Quaerat eum aut ipsum qui eaque, voluptas officia?
+        <P> We offer excellence in education, come and join us and get your future ready.
         </P>
 
         <div class="icons">
